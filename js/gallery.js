@@ -72,9 +72,9 @@ for (let {preview, original, description} of images) {
   <a class="gallery-link" href=${original} onclick="return false;">
     <img
       class="gallery-image"
-      src=${preview}
+      src="${preview}"
       data-source=${original}
-      alt=${description}
+      alt="${description}"
     />
   </a>
 </li>
